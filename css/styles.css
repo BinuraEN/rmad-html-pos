@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('../img/doughnuts.jpg') no-repeat center center/cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(187, 127, 127);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin-bottom: 50px;
+}
+
+.logo{
+    margin-left: 20px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li{
+    display: block;
+    padding: 10px;
+    margin: 0px 10px 0 10px;
+}
+
+.nav-links li:hover{
+    background-color: rgb(122, 65, 65);
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.search-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-container input{
+    margin-right: 20px;
+    height: 40px;
+}
+
+.search-container button{
+    height: 40px;
+    border-radius: 20px;
+}
+
+.form-container{
+    background-color: rgba(66, 33, 33, 0.74);
+    border-radius: 15px;
+    width: 50%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-title{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.form-container fieldset{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.form-container fieldset legend{
+    color: white;
+    text-align: center;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form-inline{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-inline-radio{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.form-container fieldset .form-inline select{
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+}
+
+.form-container fieldset .form-inline input{
+    width: 350px;
+}
+
+label{
+    color: white;
+}
+
+button{
+    padding: 15px;
+    color: white;
+    background-color: rgb(122, 65, 65);
+    border: none;
+    border-radius: 5px;
+}
+
+.order{
+    height: 800px !important;
+    
+}
+
+.table-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+}
+table, tr, th,td{
+    border: 1px white solid;
+    color: white;
+    text-align: center;
+}
+
+.total{
+    color: black;
+    padding: 20px;
+    background-color: white;
+    display: block;
+    margin-bottom: 20px;
+}
+
